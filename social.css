@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+body{
+    font-family: "Inter", sans-serif;
+    width: 100%;
+    overflow-x: hidden;
+    display: grid;
+    place-items: center;
+    background-color: var(--Grey900);
+}
+:root{
+    
+--Green: hsl(75, 94%, 57%);
+--White: hsl(0, 0%, 100%);
+--Grey700: hsl(0, 0%, 20%);
+--Grey800: hsl(0, 0%, 12%);
+--Grey900: hsl(0, 0%, 8%);
+}
+#social-links .container {
+    margin: 150px 0px;
+    width: 400px;
+    height: 500px;
+   
+
+
+}
+#social-links .container .social{
+    background-color: var(--Grey800);
+   display: grid;
+   grid-template-columns: repeat(1,1fr);
+   place-items: center;
+    border-radius: 10px;
+
+}
+#social-links .container .social .social-info h1{
+    color: var(--White);
+    font-size: 20px;
+    font-weight: 700;
+    margin:0px 0px 20px 50px
+}
+#social-links .container .social .social-info img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin:40px 0px 20px 85px
+}
+#social-links .container .social .social-info span{
+    color: var(--Green);
+    font-size: 14px;
+    margin:0px 0px 20px 50px
+}
+#social-links .container .social .social-info p{
+    font-size: 14px;
+    opacity: 0.6;
+    color: var(--White);
+}
+#social-links .container .social .links{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+
+}
+#social-links .container .social .links a{
+    text-decoration: none;
+    background-color: var(--Grey700);
+    color: var(--White);
+    padding: 15px 50px;
+    width: 220px;
+    margin: 10px 20px;
+    text-align: center;
+    border-radius: 10px;
+
+}
+#social-links .container .social .links a:hover{
+    background-color: var(--Green);
+    color: var(--Grey900);
+}
+
